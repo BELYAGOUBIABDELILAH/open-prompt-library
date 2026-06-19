@@ -75,8 +75,8 @@ A hand-picked selection across categories to get you started:
 Clone the repo and regenerate the full `prompts/` tree with a single command — no dependencies required:
 
 ```bash
-git clone https://github.com/your-org/prompts-repo.git
-cd prompts-repo
+git clone https://github.com/BELYAGOUBIABDELILAH/open-prompt-library.git
+cd open-prompt-library
 node scripts/generate-tree.js
 ```
 
