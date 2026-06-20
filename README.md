@@ -96,7 +96,7 @@ prompts.xlsx  ──(one-time)──▶  data/prompts.json + data/prompts.csv
                               prompts/ tree regenerated & committed
 ```
 
-The n8n workflow appends new entries directly to `data/prompts.json` and `data/prompts.csv`. The GitHub Action (see [`.github/workflows/rebuild-index.yml`](.github/workflows/rebuild-index.yml)) then runs the same script automatically to keep the markdown files in sync.
+This daily updated repository appends new entries directly to `data/prompts.json` and `data/prompts.csv`. The GitHub Action (see [`.github/workflows/rebuild-index.yml`](.github/workflows/rebuild-index.yml)) then runs the same script automatically to keep the markdown files in sync.
 
 ---
 

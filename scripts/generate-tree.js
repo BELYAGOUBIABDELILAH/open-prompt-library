@@ -81,7 +81,7 @@ function csvEscape(val) {
 }
 
 // ---------------------------------------------------------------------------
-// Load data
+// Load and Merge Data
 // ---------------------------------------------------------------------------
 if (!fs.existsSync(dataFile)) {
   console.error('ERROR: data/prompts.json not found. Run xlsx-to-json.js first.');
@@ -89,7 +89,37 @@ if (!fs.existsSync(dataFile)) {
 }
 
 const records = JSON.parse(fs.readFileSync(dataFile, 'utf8'));
-console.log(`Loaded ${records.length} records from data/prompts.json`);
+console.log(`Loaded ${records.length} base records from data/prompts.json`);
+
+const categoriesDir = path.join(repoRoot, 'data', 'categories');
+let newPromptsAdded = 0;
+
+if (fs.existsSync(categoriesDir)) {
+  const existingSlugs = new Set(records.map(r => r.slug));
+  const categoryFiles = fs.readdirSync(categoriesDir).filter(f => f.endsWith('.json'));
+  
+  for (const file of categoryFiles) {
+    const filePath = path.join(categoriesDir, file);
+    try {
+      const catData = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+      for (const r of catData) {
+        if (!existingSlugs.has(r.slug)) {
+          records.push(r);
+          existingSlugs.add(r.slug);
+          newPromptsAdded++;
+        }
+      }
+    } catch (e) {
+      console.warn(`WARN: Failed to parse ${file}: ${e.message}`);
+    }
+  }
+}
+
+if (newPromptsAdded > 0) {
+  console.log(`Merged ${newPromptsAdded} new prompts from data/categories/`);
+  fs.writeFileSync(dataFile, JSON.stringify(records, null, 2), 'utf8');
+  console.log('Synchronized data/prompts.json');
+}
 
 // ---------------------------------------------------------------------------
 // Re-generate CSV (ensures data/prompts.csv is always in sync)
