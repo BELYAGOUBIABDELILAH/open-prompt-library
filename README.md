@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=6E40C9&center=true&vCenter=true&multiline=true&width=600&height=100&lines=Open+Prompt+Library;2%2C106+battle-tested+AI+prompts" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=6E40C9&center=true&vCenter=true&multiline=true&width=600&height=100&lines=Open+Prompt+Library;2%2C997+battle-tested+AI+prompts" alt="Typing SVG" />
 
 <br/>
 
-![Prompts](https://img.shields.io/badge/prompts-2106-6E40C9?style=flat-square)
+![Prompts](https://img.shields.io/badge/prompts-2997-6E40C9?style=flat-square)
 ![Categories](https://img.shields.io/badge/categories-19-blue?style=flat-square)
 ![License](https://img.shields.io/github/license/BELYAGOUBIABDELILAH/open-prompt-library?style=flat-square)
 ![Last Commit](https://img.shields.io/github/last-commit/BELYAGOUBIABDELILAH/open-prompt-library?style=flat-square&color=green)
@@ -14,7 +14,11 @@
 <p>A curated, open-source collection of AI prompts for developers, writers, marketers, and creators.<br/>
 Browse, copy, fork, and extend — no setup required.</p>
 
-[Browse Prompts](#-categories) · [Quick Start](#-quick-start) · [Data Exports](#-data-exports) · [Contributing](#-contributing)
+<div align="center">
+
+[Browse Prompts](#-categories) &nbsp;·&nbsp; [Quick Start](#-quick-start) &nbsp;·&nbsp; [Data Exports](#-data-exports) &nbsp;·&nbsp; [Contributing](#-contributing)
+
+</div>
 
 </div>
 
@@ -29,7 +33,7 @@ No installation. No account. Just copy and use.
 3. Paste it into ChatGPT, Claude, Gemini, or any LLM
 4. Tweak and go
 
-> **Power user tip** — clone the repo and run `grep -r "keyword" prompts/` to full-text search all 2,106 prompts locally.
+> **Power user tip** — clone the repo and run `grep -r "keyword" prompts/` to full-text search all 2,997 prompts locally.
 
 ---
 
@@ -48,7 +52,7 @@ No installation. No account. Just copy and use.
 
 ## ◈ Categories
 
-> **2,106 prompts** across **19 categories** — updated regularly.
+> **2,997 prompts** across **19 categories** — updated regularly.
 
 | Category | Prompts | Browse |
 |---|---|---|
@@ -80,8 +84,8 @@ The full dataset is available in machine-readable formats.
 
 | File | Format | Records | Use case |
 |---|---|---|---|
-| `data/prompts.json` | JSON array | 2,106 | Build apps, query with `jq`, feed into vector DBs |
-| `data/prompts.csv` | CSV UTF-8 | 2,106 | Excel, pandas, Sheets, SQL imports |
+| [`data/prompts.json`](data/prompts.json) | JSON array | 2,997 | Build apps, query with `jq`, feed into vector DBs |
+| [`data/prompts.csv`](data/prompts.csv) | CSV UTF-8 | 2,997 | Excel, pandas, Sheets, SQL imports |
 
 **JSON schema per record**
 
@@ -114,23 +118,32 @@ This fully recreates every `prompts/category/*.md` file and rebuilds all README 
 
 ---
 
+---
+
 ## ◎ Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) to add or improve a prompt.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the full guide.
 
-- Adding a single prompt? Open a PR directly
-- Adding a batch? Open an issue first to coordinate and avoid duplicates
-- All contributions are reviewed and deduplicated before merging
+| | |
+|---|---|
+| Single prompt | Open a PR directly |
+| Batch of prompts | Open an issue first to coordinate |
+| Found a bug or duplicate | [Open an issue](https://github.com/BELYAGOUBIABDELILAH/open-prompt-library/issues/new) |
+
+> All contributions are reviewed and deduplicated before merging.
 
 ---
 
 ## ◻ License
 
-MIT — see [LICENSE](LICENSE).  
-Individual prompt sources are credited inline in each file.
+[MIT](LICENSE) · Prompt sources are credited inline in each file.
 
 ---
 
 <div align="center">
+
+**[⬆ Back to top](#)**
+
 <sub>Built for the community · Open source · Always free</sub>
+
 </div>
