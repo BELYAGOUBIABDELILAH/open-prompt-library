@@ -14,11 +14,12 @@
 <p>A curated, open-source collection of AI prompts for developers, writers, marketers, and creators.<br/>
 Browse, copy, fork, and extend — no setup required.</p>
 
-<div align="center">
-
-[Browse Prompts](#-categories) &nbsp;·&nbsp; [Quick Start](#-quick-start) &nbsp;·&nbsp; [Data Exports](#-data-exports) &nbsp;·&nbsp; [Contributing](#-contributing)
-
-</div>
+<p>
+  <a href="#-categories">Browse Prompts</a> &nbsp;·&nbsp;
+  <a href="#-quick-start">Quick Start</a> &nbsp;·&nbsp;
+  <a href="#-data-exports">Data Exports</a> &nbsp;·&nbsp;
+  <a href="#-contributing">Contributing</a>
+</p>
 
 </div>
 
@@ -33,7 +34,7 @@ No installation. No account. Just copy and use.
 3. Paste it into ChatGPT, Claude, Gemini, or any LLM
 4. Tweak and go
 
-> **Power user tip** — clone the repo and run `grep -r "keyword" prompts/` to full-text search all 2,997 prompts locally.
+> **Power user tip** — clone the repo and run `grep -r "keyword" prompts/` to full-text search all prompts locally.
 
 ---
 
@@ -54,27 +55,27 @@ No installation. No account. Just copy and use.
 
 > **2,997 prompts** across **19 categories** — updated regularly.
 
-| Category | Prompts | Browse |
-|---|---|---|
-| Coding & Development | 770 | [→ prompts/coding-development](prompts/coding-development) |
-| Image & Design | 390 | [→ prompts/image-design](prompts/image-design) |
-| Writing & Content | 253 | [→ prompts/writing-content](prompts/writing-content) |
-| Data Analytics | 138 | [→ prompts/data-analytics](prompts/data-analytics) |
-| Marketing & Social | 104 | [→ prompts/marketing-social](prompts/marketing-social) |
-| General | 71 | [→ prompts/general](prompts/general) |
-| Education & Learning | 70 | [→ prompts/education-learning](prompts/education-learning) |
-| AI & Automation | 62 | [→ prompts/ai-automation](prompts/ai-automation) |
-| Business & Career | 52 | [→ prompts/business-career](prompts/business-career) |
-| Documentation | 52 | [→ prompts/documentation](prompts/documentation) |
-| Security | 41 | [→ prompts/security](prompts/security) |
-| Health & Wellness | 27 | [→ prompts/health-wellness](prompts/health-wellness) |
-| Research & Analysis | 23 | [→ prompts/research-analysis](prompts/research-analysis) |
-| Sales & Business | 19 | [→ prompts/sales-business](prompts/sales-business) |
-| Games & Fun | 13 | [→ prompts/games-fun](prompts/games-fun) |
-| Product Strategy | 11 | [→ prompts/product-strategy](prompts/product-strategy) |
-| Travel & Places | 5 | [→ prompts/travel-places](prompts/travel-places) |
-| Food & Recipes | 3 | [→ prompts/food-recipes](prompts/food-recipes) |
-| Philosophy & Humanities | 2 | [→ prompts/philosophy-humanities](prompts/philosophy-humanities) |
+| Category | Browse |
+|---|---|
+| Coding & Development | [→ prompts/coding-development](prompts/coding-development) |
+| Image & Design | [→ prompts/image-design](prompts/image-design) |
+| Writing & Content | [→ prompts/writing-content](prompts/writing-content) |
+| Data Analytics | [→ prompts/data-analytics](prompts/data-analytics) |
+| Marketing & Social | [→ prompts/marketing-social](prompts/marketing-social) |
+| General | [→ prompts/general](prompts/general) |
+| Education & Learning | [→ prompts/education-learning](prompts/education-learning) |
+| AI & Automation | [→ prompts/ai-automation](prompts/ai-automation) |
+| Business & Career | [→ prompts/business-career](prompts/business-career) |
+| Documentation | [→ prompts/documentation](prompts/documentation) |
+| Security | [→ prompts/security](prompts/security) |
+| Health & Wellness | [→ prompts/health-wellness](prompts/health-wellness) |
+| Research & Analysis | [→ prompts/research-analysis](prompts/research-analysis) |
+| Sales & Business | [→ prompts/sales-business](prompts/sales-business) |
+| Games & Fun | [→ prompts/games-fun](prompts/games-fun) |
+| Product Strategy | [→ prompts/product-strategy](prompts/product-strategy) |
+| Travel & Places | [→ prompts/travel-places](prompts/travel-places) |
+| Food & Recipes | [→ prompts/food-recipes](prompts/food-recipes) |
+| Philosophy & Humanities | [→ prompts/philosophy-humanities](prompts/philosophy-humanities) |
 
 ---
 
@@ -115,8 +116,6 @@ node scripts/generate-tree.js
 ```
 
 This fully recreates every `prompts/category/*.md` file and rebuilds all README indexes from `data/prompts.json`. It is idempotent — safe to re-run anytime.
-
----
 
 ---
 
