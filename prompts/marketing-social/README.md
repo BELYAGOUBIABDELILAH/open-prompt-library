@@ -2,7 +2,7 @@
 
 [← Back to main index](../../README.md)
 
-**158 prompts in this category**
+**159 prompts in this category**
 
 ## Table of Contents
 
@@ -61,6 +61,7 @@
 - [A/B Testing Plan](a-b-testing-plan-53.md)
 - [A/B Testing Plan](a-b-testing-plan-54.md)
 - [A/B Testing Plan](a-b-testing-plan-55.md)
+- [A/B Testing Plan](a-b-testing-plan-56.md)
 - [Act as a Product Manager](act-as-a-product-manager.md)
 - [Act as an Etsy Niche Product Researcher](act-as-an-etsy-niche-product-researcher.md)
 - [Advertiser](advertiser.md)
