@@ -2,7 +2,7 @@
 
 [← Back to main index](../../README.md)
 
-**69 prompts in this category**
+**70 prompts in this category**
 
 ## Table of Contents
 
@@ -66,6 +66,7 @@
 - [Football Commentator](football-commentator-55.md)
 - [Football Commentator](football-commentator-56.md)
 - [Football Commentator](football-commentator-57.md)
+- [Football Commentator](football-commentator-58.md)
 - [Gomoku player](gomoku-player.md)
 - [Google Docs Wizard](google-docs-wizard.md)
 - [House Viewing Screener](house-viewing-screener.md)
