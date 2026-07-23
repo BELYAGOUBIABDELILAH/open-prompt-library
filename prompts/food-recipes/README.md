@@ -2,7 +2,7 @@
 
 [← Back to main index](../../README.md)
 
-**62 prompts in this category**
+**63 prompts in this category**
 
 ## Table of Contents
 
@@ -68,3 +68,4 @@
 - [Restaurant Owner](restaurant-owner-58.md)
 - [Restaurant Owner](restaurant-owner-59.md)
 - [Restaurant Owner](restaurant-owner-60.md)
+- [Restaurant Owner](restaurant-owner-61.md)
